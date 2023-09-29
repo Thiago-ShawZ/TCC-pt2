@@ -1,0 +1,86 @@
+.apresentation{
+    margin: 4rem;
+}
+
+.smarmita_mobile{
+    display: flex;
+    justify-content: center;
+}
+
+.target_public {
+    background: #020072;
+}
+.target_public p{
+    padding-top: 1.875rem;
+    padding-inline: 3.125rem;
+    color: #fff;
+    padding-bottom: 9.5625rem;
+}
+
+.image_target_public{
+    display: flex;
+    justify-content: center;
+    padding-top: 8.0625rem;
+    padding-bottom: 5.625rem;
+}
+
+.mobile_main h1{
+    color: #020072;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+.apresentation p{
+    margin-bottom: 1rem;
+}
+
+
+.target_public h1{
+    text-align: center;
+    color: white;
+}
+    
+
+.process h1{
+    padding-top: 8.625rem;
+    padding-bottom: 3.625rem;
+}
+
+.process_photo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7.1875rem;
+}
+
+@media (min-width: 800px) {
+    .explicacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+    }
+
+
+    .explicacao img{
+        height: 460px;
+        width: 470px;
+    }
+    
+    .publico_alvo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem; 
+    }
+
+    .publico_alvo  h1{
+        margin-top: 8.25rem ; 
+    }
+
+    .publico_alvo img{
+        height: 14.4375rem;
+        width: 24.375rem;
+    };
+
+}
